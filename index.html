@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    
+  </head>
+  <body>
+    <p class="title">Rock Paper Siccors</p>
+    <button class="moves" onclick="playGame('Rock')"><img  src="./Assets/rock-emoji.png"></button>
+    <button class="moves" onclick="playGame('Paper')"><img src="./Assets/paper-emoji.png"></button>
+    <button class="moves" onclick="playGame('Siccors')"><img src="./Assets/siccors-emoji.png"></button>
+
+    <p class="js-results css-results"></p>
+    <p class="js-moves css-moves"></p>
+    <p class="js-score"></p>
+
+    <button class="reset-button" onclick="
+   remove()
+  updateScore()
+    ">Reset Button</button>
+
+<script src="./index.js"></script>
+  </body>
+</html>
